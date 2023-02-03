@@ -1,4 +1,19 @@
+//Para enviar a llamar tareas en gulp en la consola se debe hacer lo siguiente en la terminal:
+//npx gulp nombredelatarea
+//También se pueden llamar tareas en gulp usando npm de la siguiente forma, para lo cuál habrás
+//primero agregado al apartado "Scripts" la tarea a ejecutar en gulp:
+//npm run nombredelatarea
+
+//npm i --save-dev gulp-sass
+
+//npx gulp dev
+//npm run dev
+
+//npm i --save-dev gulp-plumber
+
 const { src, dest, watch, parallel } = require('gulp');
+
+
 
 // CSS
 const sass = require('gulp-sass')(require('sass'));

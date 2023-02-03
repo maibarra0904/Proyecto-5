@@ -4,9 +4,10 @@
   "description": "Curso Desarrollo Web Completo",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tarea": "gulp tarea"
   },
-  "author": "Juan De La Torre",
+  "author": "Mario Ibarra",
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^5.1.0",
@@ -25,7 +26,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-terser-js": "^5.2.2",
     "gulp-webp": "^4.0.1",
-    "sass": "^1.49.9",
+    "sass": "^1.58.0",
     "terser": "^4.8.0"
   }
 }
