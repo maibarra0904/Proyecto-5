@@ -29,7 +29,8 @@
 
 
 .contenido-video {
-    z-index: 10 ;
+    z-index: 10 ; /*Los elementos son como hojas de papel que si están una sobre la otra
+    hay que darle prioridad, z-index permite darle esa propiedad*/
     h2 {
         color: v.$blanco;
         font-size: 7rem;

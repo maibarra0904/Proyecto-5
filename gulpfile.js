@@ -11,6 +11,8 @@
 
 //npm i --save-dev gulp-plumber
 
+//npm install --save-dev gulp-webp //Convertir imagenes a formato webp usando gulp
+
 const { src, dest, watch, parallel } = require('gulp');
 
 
