@@ -60,8 +60,8 @@
 
 .bg-amarillo {
     background-color: v.$amarillo;
-    li:nth-child(odd) {
-        background-color: darken(v.$amarillo, 15%);
+    li:nth-child(odd) { //Odd selecciona los elementos impares, sirve para dar el efecto de sombreado alternado
+        background-color: darken(v.$amarillo, 20%);
     }
 }
 .bg-verde {
@@ -69,4 +69,6 @@
     li:nth-child(odd) {
         background-color: darken(v.$verde, 10%);
     }
+
+    
 }
