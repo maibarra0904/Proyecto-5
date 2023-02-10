@@ -15,7 +15,7 @@ function navegacionFija() {
 
 
     window.addEventListener('scroll', function() {
-        if( sobreFestival.getBoundingClientRect().bottom < 0  ) {
+        if( sobreFestival.getBoundingClientRect().top < 0  ) {
             barra.classList.add('fijo');
             body.classList.add('body-scroll');
         } else {
