@@ -18,10 +18,10 @@ const { src, dest, watch, parallel } = require('gulp');
 
 
 // CSS
-const sass = require('gulp-sass')(require('sass'));
-const plumber = require('gulp-plumber');
-const autoprefixer = require('autoprefixer');
-const cssnano = require('cssnano');
+const sass = require('gulp-sass')(require('sass')); //Permite unir gulp con sass
+const plumber = require('gulp-plumber'); //Evita que se detenga el compilador por errores
+const autoprefixer = require('autoprefixer'); //Regula el codigo para compatibilizar con otros navegadores
+const cssnano = require('cssnano'); //Mejora el performance del código
 const postcss = require('gulp-postcss');
 const sourcemaps = require('gulp-sourcemaps');
 
