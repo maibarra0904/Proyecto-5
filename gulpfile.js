@@ -13,6 +13,8 @@
 
 //npm install --save-dev gulp-webp //Convertir imagenes a formato webp usando gulp
 
+//npm i gulp-terser-js
+
 const { src, dest, watch, parallel } = require('gulp');
 
 
